@@ -1,0 +1,13 @@
+1.安装网易云音乐
+官网下载linux安装包
+sudo apt-get install -f
+sudo dpkg -i netease-cloud-music_1.0.0_i386_ubuntu16.04.deb 
+#启动#凡是在/usr/lib里面的文件都可以直接在终端输入
+netease-cloud-music
+#若无法启动，尝试
+sudo netease-cloud-music
+#如果没有声音
+sudo apt install pavucontrol
+pavucontrol
+
+
