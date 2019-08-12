@@ -286,3 +286,18 @@ sudo pip install 安装包
 8.装pyltp
 sudo pip install pyltp
 #如果提示文件权限问题，赋权即可，安装时间较长，大约10分钟
+
+
+9.装git
+sudo apt-get install git
+#获取git配置信息和配置git
+git config --list
+git config --global user.name ""
+git config --global user.email ""
+git config --global core.editor vim
+
+#常用命令
+git add 目录/文件
+git status -s
+git commit
+git push origin master
