@@ -301,3 +301,19 @@ git add 目录/文件
 git status -s
 git commit
 git push origin master
+
+
+10.装docker
+#根据<<第一本Docker书>>
+#添加Docker的ATP库
+sudo sh -c "echo deb https://apt.dockerproject.org/repo ubuntu-trusty main > /etc/apt/surces.list.d/docker.list"
+#添加Docker仓库的GPG秘钥
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+#更新APT源
+sudo apt-get update
+#安装Docker(龟速..)
+sudo apt-get install docker-engine
+#可能提示缺少依赖libsystemd-journal0
+#可从https://debian.pkgs.org/8/debian-main-amd64/libsystemd-journal0_215-17+deb8u7_amd64.deb.html中下载
+#其他缺失的直接sudo apt-get install xxx
+#然后再安装Docker
