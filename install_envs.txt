@@ -317,3 +317,5 @@ sudo apt-get install docker-engine
 #可从https://debian.pkgs.org/8/debian-main-amd64/libsystemd-journal0_215-17+deb8u7_amd64.deb.html中下载
 #其他缺失的直接sudo apt-get install xxx
 #然后再安装Docker
+#速度实在太慢的话直接梯子下
+https://apt.dockerproject.org/repo/pool/main/d/docker-engine/docker-engine_17.05.0~ce-0~ubuntu-trusty_amd64.deb
